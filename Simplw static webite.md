@@ -27,13 +27,12 @@
    - HTTP (port 80) from anywhere.  
 7. Launch the instance with your key pair.
    
-   ![alt text](3.png)
    ---
 
 ## Step 2: Connect to the Instance
     Use your terminal (Git bash)to connect:
     ssh -i /path/to/your-key.pem ec2-user@YOUR_EC2_PUBLIC_DNS
-![alt text](4.png)
+ ![alt text](4.png)
 
 
 ## Step 3: Update your system and Install Apache webserver
@@ -57,7 +56,6 @@
   2.Create an index.html file:
 
          sudo vim index.html
-![alt text](7-1.png)
 
   3.Add the following content:
         
@@ -70,14 +68,14 @@
         <p>This is my first web server on Linux.</p>
         </body>
         </html>
- ![alt text](8.png)
+ ![alt text](7.png)
 
 
 ## Step 6: Check results 
         
 ### Open your browser and enter your server’s public IP
 
-![alt text](9-2.png)
+![alt text](9.png)
 
 # Conclusion:
 **I successfully hosted my first website on Linux using Apache.**
